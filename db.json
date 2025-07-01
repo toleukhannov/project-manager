@@ -1,0 +1,253 @@
+{
+  "projects": [
+    {
+      "id": "2",
+      "name": "Project 2",
+      "description": "description 2",
+      "createdAt": "2024-02-19T15:10:00Z"
+    },
+    {
+      "id": "5779",
+      "name": "Eldar",
+      "description": "super",
+      "createdAt": "2025-06-13T05:15:19.944Z"
+    },
+    {
+      "id": "ba11",
+      "name": "asa",
+      "description": "sasa",
+      "createdAt": "2025-06-13T10:45:30.533Z"
+    },
+    {
+      "id": "66bb",
+      "name": "Batyrbek Toleukhanov",
+      "description": "ascsvzfasdacavasdac",
+      "createdAt": "2025-06-18T13:29:12.927Z"
+    },
+    {
+      "id": "5dfd",
+      "name": "saasac",
+      "description": "asas",
+      "createdAt": "2025-06-19T08:59:36.643Z"
+    },
+    {
+      "id": "5be0",
+      "name": "project 5",
+      "description": "Описание проекта",
+      "createdAt": "2025-06-21T08:53:31.780Z"
+    },
+    {
+      "id": "f7ed",
+      "name": "sasdeasfa",
+      "description": "21431153135",
+      "createdAt": "2025-06-21T08:53:40.282Z"
+    },
+    {
+      "id": "2bcb",
+      "name": "787986574",
+      "description": "hgdhnfcnucn",
+      "createdAt": "2025-06-21T08:53:47.989Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "projectId": "2",
+      "title": "Первая задача",
+      "status": "todo",
+      "assignee": "1"
+    },
+    {
+      "id": "2",
+      "projectId": "2",
+      "title": "Вторая задача",
+      "status": "done",
+      "assignee": "1"
+    },
+    {
+      "id": "3",
+      "projectId": "2",
+      "title": "Третья задача",
+      "status": "todo",
+      "assignee": "1"
+    },
+    {
+      "id": "ef04",
+      "title": "asas",
+      "status": "todo",
+      "assignee": "saasas",
+      "projectId": "2"
+    },
+    {
+      "id": "b3cf",
+      "title": "4 zdadacha",
+      "status": "todo",
+      "assignee": "Igor",
+      "projectId": "2"
+    },
+    {
+      "id": "9fd7",
+      "title": "Eldar",
+      "status": "done",
+      "assignee": "Eldar",
+      "projectId": "2"
+    },
+    {
+      "id": "9aa4",
+      "title": "Записать видео",
+      "status": "todo",
+      "deadline": "2025-06-24",
+      "assignee": "Батыр",
+      "projectId": "2"
+    },
+    {
+      "id": "fb65",
+      "title": "Записать видео",
+      "status": "todo",
+      "deadline": "2025-06-24",
+      "assignee": "Батыр",
+      "projectId": "66bb"
+    },
+    {
+      "id": "3560",
+      "title": "Записать видео",
+      "status": "in-progress",
+      "deadline": "2025-06-24",
+      "assignee": "Батыр",
+      "projectId": "5779"
+    },
+    {
+      "id": "f158",
+      "title": "asas",
+      "status": "todo",
+      "deadline": "2025-06-13",
+      "assignee": "adasda",
+      "projectId": "5779"
+    },
+    {
+      "id": "e401",
+      "status": "todo",
+      "deadline": "2025-06-22",
+      "title": "Записать видео",
+      "assignee": "asaasadsae",
+      "projectId": "5779"
+    },
+    {
+      "id": "0b6b",
+      "title": "Fast and Furious",
+      "status": "done",
+      "deadline": "2025-06-21",
+      "assignee": "John Cena",
+      "projectId": "2"
+    },
+    {
+      "id": "6d60",
+      "title": "asaac",
+      "status": "todo",
+      "deadline": "2025-06-29",
+      "assignee": "Иван Иванов",
+      "projectId": "2"
+    },
+    {
+      "id": "9d2f",
+      "title": "фывыфсфывыф",
+      "status": "todo",
+      "deadline": "2025-06-28",
+      "assignee": "2",
+      "projectId": "2"
+    },
+    {
+      "id": "bac9",
+      "title": "Записать видео",
+      "status": "todo",
+      "deadline": "2025-06-29",
+      "assignee": "2",
+      "projectId": "2"
+    },
+    {
+      "id": "e57d",
+      "title": "Записать видео",
+      "status": "todo",
+      "deadline": "2025-06-27",
+      "assignee": "3",
+      "projectId": "2"
+    },
+    {
+      "id": "2c1e",
+      "title": "ascxzasad",
+      "status": "todo",
+      "deadline": "2025-06-27",
+      "assignee": "3",
+      "projectId": "2"
+    }
+  ],
+  "comments": [
+    {
+      "id": "46a2",
+      "taskId": "0b6b",
+      "text": "adsaxzxa",
+      "author": "3"
+    },
+    {
+      "id": "8f20",
+      "taskId": "1",
+      "text": "Описание где",
+      "author": "3"
+    },
+    {
+      "id": "abea",
+      "taskId": "1",
+      "text": "Я тоже что то напишу",
+      "author": "2"
+    },
+    {
+      "id": "64d5",
+      "taskId": "1",
+      "text": "Можно мне тоже?",
+      "author": "1"
+    },
+    {
+      "id": "771f",
+      "taskId": "1",
+      "text": "Всее работает ураа",
+      "author": "1"
+    },
+    {
+      "id": "724a",
+      "taskId": "1",
+      "text": "sasasfada",
+      "author": "3"
+    }
+  ],
+  "files": [
+    {
+      "id": "2",
+      "taskId": "2",
+      "name": "design.png",
+      "url": "https://example.com/design.png"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Иван Иванов",
+      "email": "ivan@solva.com",
+      "password": "123",
+      "avatar": "https://example.com/avatar3.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Анна Петрова",
+      "email": "anna@solva.com",
+      "password": "1234",
+      "avatar": "https://example.com/avatar3.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Батырбек Толеуханов",
+      "email": "batyrbek@solva.com",
+      "password": "1234",
+      "avatar": "https://example.com/avatar3.jpg"
+    }
+  ]
+}

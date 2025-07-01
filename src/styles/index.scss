@@ -1,0 +1,20 @@
+// settings
+@import "settings/colors";
+@import "settings/fonts";
+@import "settings/variables";
+
+// mixins
+
+// generic
+@import "generic/base";
+@import "generic/containers";
+@import "generic/headings";
+
+// elements
+
+// components
+@import "components/header";
+@import "components/projectsPage";
+@import "components/project";
+@import "components/modalButton";
+@import "components/taskPage";

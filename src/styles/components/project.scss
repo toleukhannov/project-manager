@@ -1,0 +1,92 @@
+.info-block{
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid $c-card-border;
+
+  .project-name {
+    font-size: 40px;
+    font-weight: 700;
+    color: $c-white;
+  }
+
+  .project-description {
+    color: $c-white;
+    font-size: 20px;
+  }
+
+  .project-created {
+    @extend .project-description;
+  }
+}
+
+.task-card {
+  background-color: $c-black-4;
+  color: $c-white;
+  font-size: 20px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.todo-column {
+  flex-basis: 33%;
+  padding: 15px 24px;
+  border: 2px solid $c-todo-column;
+  border-radius: 20px;
+  background-color: $c-card-bg;
+
+  .todo-column-heading {
+    color: $c-todo-column;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+  }
+}
+
+.in-progress-column {
+  @extend .todo-column;
+
+  border: 2px solid $c-in-progress-column;
+
+  .in-progress-column-heading {
+    @extend .todo-column-heading;
+
+    color: $c-in-progress-column;
+  }
+}
+
+.done-column {
+  @extend .todo-column;
+  border: 2px solid $c-done-column;
+
+  .done-column-heading {
+    @extend .todo-column-heading;
+
+    color: $c-done-column;
+  }
+}
+.svg-icon {
+  fill: $c-white;
+  width: 50px;
+  height: 50px;
+
+  :hover {
+    fill: $c-yellow;
+  }
+}
+
+.modal-heading {
+  margin-bottom: 40px;
+}
+.modal-input {
+  input {
+    background-color: $c-card-bg;
+    border-bottom: 2px solid $c-card-border;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    color: $c-white;
+  }
+}

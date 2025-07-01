@@ -1,0 +1,50 @@
+.container {
+  max-width: 1460px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  .projects-list-item {
+    flex: 0 0 calc(50% - 12px);
+    background-color: $c-card-bg;
+    border: 1px solid $c-card-border;
+    color: $c-white;
+    border-radius: 20px;
+    padding: 24px 40px;
+    box-sizing: border-box;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      background-color: darken($c-card-bg, 3%);
+      border-color: $c-blue;
+    }
+
+    @media(max-width: $screen-sm-max) {
+      flex: 0 0 100%;
+    }
+
+    .project-title {
+      color: $c-white;
+      font-size: 40px;
+      font-weight: 700;
+      margin-bottom: 70px;
+    }
+
+    .project-info {
+      .description {
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      .created-date {
+        font-size: 20px;
+        font-weight: 400;
+      }
+    }
+  }
+}
