@@ -22,3 +22,7 @@ git clone https://github.com/toleukhannov/project-manager.git
 cd project-manager
 npm install
 npm start
+npx json-server db.json
+[loacalhost](/projects)
+login: batyrbek@solva.com 
+password: 1234
